@@ -1,4 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
+# Author: Larry N. Singh
+# https://github.com/laryns/karylens
+#
 
 import argparse
 import sys
@@ -10,7 +14,7 @@ from skimage import io, morphology, color, measure, draw
 from skimage.filters import threshold_otsu
 from skimage.util import invert
 
-""" Karlens - Find the lengths of individual chromosomes from a karyotype image.
+""" Karylens - Find the lengths of individual chromosomes from a karyotype image.
 """
 
 
